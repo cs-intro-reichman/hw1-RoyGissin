@@ -8,6 +8,6 @@ public class Bill3 {
 		int value= Integer.parseInt(args[3]);
        double a=(double) value/3.0;
 	    a= Math.ceil(a);
-		System.out.println("Dear" + " " + name3 + ", " + name2 + "and" + " " + name1 + " : pay " + a + " Shekels each" );
+		System.out.println("Dear" + " " + name3 + ", " +  name2 + ", and" + " " + name1 + ": pay " + a + " Shekels each" );
 	}
 }
